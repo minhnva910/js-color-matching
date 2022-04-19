@@ -18,7 +18,7 @@ import {
 let selections = []
 let gameStatus = GAME_STATUS.PLAYING
 let timer = createTimer({
-  seconds: GAME_TIME, //GAME_TIME ,
+  seconds: 20, //GAME_TIME ,
   onChange: handleTimerChange,
   onFinish: handleTimerFinish,
 })
